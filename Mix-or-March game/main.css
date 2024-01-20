@@ -1,0 +1,19 @@
+body {
+    background: #333333;
+    margin: 0;
+}
+
+.cards {
+    margin: 30px auto;
+    width: max-content;
+    display: grid;
+    grid-template-columns: repeat(4, 140px);
+    gap: 10px;
+}
+
+.card {
+    height: 130px;
+    background: #111111;
+    border: 5px solid #444444;
+    cursor: pointer;
+}
